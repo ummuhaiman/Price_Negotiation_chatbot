@@ -17,27 +17,33 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
 8. [License](#license)
 
     
-# Features
+---
 
-   -Start Negotiations: Users can initiate a negotiation session for a product with a configurable starting price.
-   -Dynamic Counteroffers: The chatbot uses Hugging Face’s GPT-2 model to intelligently generate counteroffers during price negotiations.
-   -Sentiment Analysis: Analyze user input sentiment to assess negotiation tone (positive, negative, or neutral).
-   -Real-Time Price Updates: Keep track of the current price and negotiation status for each session.
-   
-# Technologies Used
+## **Features**
 
-   -Framework: FastAPI - Fast and modern Python web framework for building APIs.
-   -Natural Language Generation: Hugging Face GPT-2 - Pre-trained transformer model for generating responses.
-   -Sentiment Analysis: NLTK VADER - A pre-built lexicon for analyzing text sentiment.
-   -Environment Variables Management: python-dotenv - For securely handling API keys.
-   -HTTP Client: Requests - To interact with Hugging Face API.
-   
-# Installation and Setup
+- **Start Negotiations**: Users can initiate a negotiation session for a product with a configurable starting price.
+- **Dynamic Counteroffers**: The chatbot uses Hugging Face’s GPT-2 model to intelligently generate counteroffers during price negotiations.
+- **Sentiment Analysis**: Analyze user input sentiment to assess negotiation tone (positive, negative, or neutral).
+- **Real-Time Price Updates**: Keep track of the current price and negotiation status for each session.
 
-  # -Step 1: Clone the Repository
-  
-  git clone https://github.com/ummuhaiman/negotiation-chatbot-api.git
-  cd negotiation-chatbot-api
+---
+
+## **Technologies Used**
+
+- **Framework**: [FastAPI](https://fastapi.tiangolo.com/) - Fast and modern Python web framework for building APIs.
+- **Natural Language Generation**: [Hugging Face GPT-2](https://huggingface.co/) - Pre-trained transformer model for generating responses.
+- **Sentiment Analysis**: [NLTK VADER](https://www.nltk.org/) - A pre-built lexicon for analyzing text sentiment.
+- **Environment Variables Management**: [python-dotenv](https://pypi.org/project/python-dotenv/) - For securely handling API keys.
+- **HTTP Client**: [Requests](https://docs.python-requests.org/) - To interact with Hugging Face API.
+
+---
+
+## **Installation and Setup**
+
+### **Step 1: Clone the Repository**
+```bash
+git clone https://github.com/ummuhaiman/negotiation-chatbot-api.git
+cd negotiation-chatbot-api
   
  # -Step 2: Set Up Environment
  
