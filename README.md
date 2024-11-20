@@ -37,48 +37,57 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
 - **HTTP Client**: [Requests](https://docs.python-requests.org/) - To interact with Hugging Face API.
 
 ---
+## Step 1: Clone the Repository
 
-## Installation and Setup
-
-### **Step 1: Clone the Repository**
-```bash
 git clone https://github.com/ummuhaiman/negotiation-chatbot-api.git
 cd negotiation-chatbot-api
+
 ---
-  
-### Step 2: Set Up Environment
+##  Step 2: Set Up Environment**
 
-   - 1.Install dependencies:
-'''bash
+   1.Install dependencies:
+     
     pip install -r requirements.txt
-   
+    
    2.Create a .env file in the project root and add your Hugging Face API key:
-'''bash
-   HUGGING_FACE_API_KEY=your_hugging_face_api_key
-   
-### **Step 3: Run the Application**
-   -Start the FastAPI server:
-    '''bash
-   uvicorn main:app --reload
-Access the interactive API documentation at http://127.0.0.1:8000/docs.
 
-# API Endpoints
+   HUGGING_FACE_API_KEY=your_hugging_face_api_key
+
+## Step 3: Run the Application
+   - Start the FastAPI server:
+    
+    uvicorn main:app --reload
+    Access the interactive API documentation at http://127.0.0.1:8000/docs.
+---
+## API Endpoints
 1. Start Negotiation
 
 POST /start-negotiation
--Request:
--Response:
+- Request:
+- Response:
 2. Make Offer
 
 2.POST /offer
- -Request:
- -Response 
+ - Request:
+ - Response 
 3. Get Current Price
  GET /current-price
 4. Sentiment Analysis
  POST /sentiment-analysis
- -Request:
- -Response:
+ - Request:
+ - Response:
+
+---=
+## Configuration
+
+Key configurations for negotiation are defined in the source code:
+
+    - PRODUCT: Name of the product (default: Premium Laptop).
+    - INITIAL_PRICE: Starting price of the product (default: 1000.0 USD).
+    - MIN_PRICE: Minimum acceptable price (default: 700.0 USD).
+    - MAX_PRICE: Maximum price (default: 1200.0 USD).
+    - PRICE_STEP: Counteroffer increment/decrement value (default: 50.0 USD).
+
 ## How It Works
 
     1.Session Management:
@@ -95,11 +104,9 @@ POST /start-negotiation
 
     4.Sentiment Analysis:
         User input is analyzed using VADER to determine sentiment (negative, neutral, positive).
-    License
-
-# This project is licensed under the MIT License.
         
+## License
+This project is licensed under the MIT License.
 
-
-
-
+   
+    
