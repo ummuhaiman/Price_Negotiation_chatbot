@@ -1,20 +1,21 @@
 # Price_Negotiation_chatbot_API 🤝💬
 An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Face for natural language generation and NLTK's VADER for sentiment analysis. This API allows users to negotiate product prices in real-time while dynamically generating counteroffers and analyzing sentiment for a human-like interaction.
 
-# Table of Contents
+## Table of Contents
 
-    1.Features
-    2.Technologies Used
-    3.Installation and Setup
-    4.API Endpoints
-        -Start Negotiation
-        -Make Offer
-        -Get Current Price
-        -Sentiment Analysis
-    5.Configuration
-    6.How It Works
-    7.Future Enhancements
-    8.License
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation and Setup](#installation-and-setup)
+4. [API Endpoints](#api-endpoints)
+   - [Start Negotiation](#1-start-negotiation)
+   - [Make Offer](#2-make-offer)
+   - [Get Current Price](#3-get-current-price)
+   - [Sentiment Analysis](#4-sentiment-analysis)
+5. [Configuration](#configuration)
+6. [How It Works](#how-it-works)
+7. [Future Enhancements](#future-enhancements)
+8. [License](#license)
+
     
 # Features
 
