@@ -44,17 +44,20 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
 ```bash
 git clone https://github.com/ummuhaiman/negotiation-chatbot-api.git
 cd negotiation-chatbot-api
+
   
- # -Step 2: Set Up Environment
- 
-   1.Install dependencies:
-   pip install -r requirements.txt
+ ### **Step 2: Set Up Environment**
+   - 1.Install dependencies:
+'''bash
+    pip install -r requirements.txt
    
    2.Create a .env file in the project root and add your Hugging Face API key:
+'''bash
    HUGGING_FACE_API_KEY=your_hugging_face_api_key
    
-# -Step 3: Run the Application
+### **Step 3: Run the Application**
    -Start the FastAPI server:
+    '''bash
    uvicorn main:app --reload
 Access the interactive API documentation at http://127.0.0.1:8000/docs.
 
