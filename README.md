@@ -38,15 +38,16 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
 
 ---
 
-## **Installation and Setup**
+## Installation and Setup
 
 ### **Step 1: Clone the Repository**
 ```bash
 git clone https://github.com/ummuhaiman/negotiation-chatbot-api.git
 cd negotiation-chatbot-api
-
+---
   
- ### **Step 2: Set Up Environment**
+### Step 2: Set Up Environment
+
    - 1.Install dependencies:
 '''bash
     pip install -r requirements.txt
@@ -78,7 +79,7 @@ POST /start-negotiation
  POST /sentiment-analysis
  -Request:
  -Response:
-# How It Works
+## How It Works
 
     1.Session Management:
         Each negotiation session is stored in-memory using a sessions dictionary.
