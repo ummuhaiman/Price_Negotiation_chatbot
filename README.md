@@ -39,7 +39,7 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
 ---
 ## Step 1: Clone the Repository
 
-git clone https://github.com/ummuhaiman/negotiation-chatbot-api.git
+git clone https://github.com/ummuhaiman/negotiation_chatbot_api.git
 cd negotiation-chatbot-api
 
 ---
