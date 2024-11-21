@@ -79,21 +79,7 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
    }
 2. Make Offer
    
-  - Endpoint: POST /offer
-  - Request:
-   ```json
-   {
-     "user_id": "123",
-     "offer": 800
-   }
-
-   - Response:
-   ```json
-   {
-     "message": "How about we settle at $850.0 for the Premium Laptop?",
-     "current_price": 850.0,
-     "status": "ongoing"
-   }
+  
 
 
 2.POST /offer
