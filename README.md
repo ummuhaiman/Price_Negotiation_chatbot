@@ -94,24 +94,6 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
      "current_price": 850.0,
      "status": "ongoing"
    }
-   
-  
-
-
-2.POST /offer
- - Request:
-   ```json
-   {
-   "user_id": "user123"
-   }
-
- - Response
-   ```json
-   {
-   "message": "Welcome! Let's negotiate the price for the Premium Laptop. The starting price is $1000.0.",
-   "current_price": 1000.0,
-   "status": "ongoing"
-   }
 
 3. Get Current Price
   - Endpoint: GET /current-price
