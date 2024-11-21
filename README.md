@@ -79,55 +79,62 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
 2. Make Offer
    - Endpoint: POST /offer
    - Request:
-             {
-              "user_id": "123",
-               "offer": 800
-             }
+     ```json
+     {
+     "user_id": "123",
+     "offer": 800
+     }
 
    - Response:
-             {
-              "message": "How about we settle at $850.0 for the Premium Laptop?",
-              "current_price": 850.0,
-              "status": "ongoing"
-             }
+     ```json
+     {
+     "message": "How about we settle at $850.0 for the Premium Laptop?",
+     "current_price": 850.0,
+     "status": "ongoing"
+     }
 
 
 2.POST /offer
  - Request:
-             {
-              "user_id": "user123"
-             }
+   ```json
+   {
+   "user_id": "user123"
+   }
 
  - Response
-             {
-              "message": "Welcome! Let's negotiate the price for the Premium Laptop. The starting price is $1000.0.",
-              "current_price": 1000.0,
-              "status": "ongoing"
-             }
+   ```json
+   {
+   "message": "Welcome! Let's negotiate the price for the Premium Laptop. The starting price is $1000.0.",
+   "current_price": 1000.0,
+   "status": "ongoing"
+   }
 
 3. Get Current Price
   - Endpoint: GET /current-price
   - Query Parameter: user_id=123
-            {
-             "product": "Premium Laptop",
-             "current_price": 850.0,
-             "status": "ongoing"
-            }
+    ```json
+    {
+    "product": "Premium Laptop",
+    "current_price": 850.0,
+    "status": "ongoing"
+    }
 
 5. Sentiment Analysis
  - Endpoint: POST /sentiment-analysis  
  - Request:
-            {
-             "text": "I think this is a fair price."
-            }
+   ```json
+   {
+   "text": "I think this is a fair price."
+   }
 
  - Response:
-           {
-            "neg": 0.0,
-            "neu": 0.544,
-            "pos": 0.456,
-            "compound": 0.6369
-            }
+   ```json
+   {
+   "neg": 0.0,
+   "neu": 0.544,
+   "pos": 0.456,
+   "compound": 0.6369
+   }
 
 
 ---
