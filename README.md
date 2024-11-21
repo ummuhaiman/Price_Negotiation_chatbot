@@ -52,7 +52,7 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
     
    2.Create a .env file in the project root and add your Hugging Face API key:
 
-   HUGGING_FACE_API_KEY=your_hugging_face_api_key
+    HUGGING_FACE_API_KEY=your_hugging_face_api_key
 
 ## Step 3: Run the Application
    - Start the FastAPI server:
@@ -65,9 +65,10 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
 
  - Endpoint:POST /start-negotiation
  - Request:
-    {
-    "user_id": "123"
-    }
+   '''bash
+     {
+     "user_id": "123"
+     }
 
  - Response
              {
