@@ -71,7 +71,7 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
    }
 
  - Response:
-  ```json
+   ```json
    {
      "message": "Welcome! Let's negotiate the price for the Premium Laptop. The starting price is $1000.0.",
      "current_price": 1000.0,
