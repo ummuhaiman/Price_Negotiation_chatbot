@@ -81,14 +81,14 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
    
   
 3. Get Current Price
-  - Endpoint: GET /current-price
-  - Query Parameter: user_id=123
-    ```json
-    {
-    "product": "Premium Laptop",
-    "current_price": 850.0,
-    "status": "ongoing"
-    }
+ - Endpoint: GET /current-price
+ - Query Parameter: user_id=123
+   ```json
+   {
+   "product": "Premium Laptop",
+   "current_price": 850.0,
+   "status": "ongoing"
+   }
 
 5. Sentiment Analysis
  - Endpoint: POST /sentiment-analysis  
