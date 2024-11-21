@@ -65,9 +65,9 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
 
  - Endpoint:POST /start-negotiation
  - Request:
-             {
-              "user_id": "123"
-             }
+   {
+   "user_id": "123"
+   }
 
  - Response
              {
