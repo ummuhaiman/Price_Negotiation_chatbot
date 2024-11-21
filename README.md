@@ -82,7 +82,7 @@ An intelligent negotiation chatbot API built with FastAPI, leveraging Hugging Fa
  - Request:
    ```json
    {
-    "user_id": "user123",
+    "user_id": "123",
     "offer": 800
    }
  - Response:
